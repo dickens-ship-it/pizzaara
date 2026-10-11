@@ -80,8 +80,6 @@ form button {
   background-color: black;
   width: 35px;
   height: 35px;
-  /* border-radius: 50%; */
-  margin:;
   justify-self: center;
   margin-top: 12px;
 }
@@ -195,7 +193,6 @@ hr {
   justify-self: center;
 }
 .q {
-  background-color:;
   width: 300px;
   height: px;
   justify-items: center;
@@ -348,6 +345,20 @@ input[type="text"] {
   justify-items: center;
   padding-top: 50px;
 }
+.n1{
+  margin-bottom: 5px;
+  background-color: #f4f7fb;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 60px;
+}
+.mai{
+  margin-left: 1px;
+  margin-top: 10px;
+  
+}
 .d1 {
   background-color: #f4f7fb;
   border-radius: 4px;
@@ -357,6 +368,8 @@ input[type="text"] {
   height: 100px;
   text-align: center;
   margin: 20px;
+  position: relative;
+  justify-items: center;
 }
 h2 {
   font-size: xx-large;
