@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: "Kanit", sans-serif;
 }
+.pic {
+  margin-left: 50px;
+}
+
 .r {
   display: flex;
   align-content: center;
@@ -189,6 +193,13 @@ footer {
   padding-left: 40px;
   margin-top: 70px;
 }
+.mag {
+  background-image: url(../images/magnifying-glass-solid-full.svg);
+  background-repeat: no-repeat;
+  background-size: 35px;
+  background-position: 10px;
+}
+
 hr {
   justify-self: center;
 }
@@ -211,14 +222,20 @@ hr {
   margin-top: 150px;
 }
 .qA {
-  /* padding-bottom: 30px; */
   text-align: center;
 }
 .qa {
   margin-bottom: 20px;
 }
+.Da {
+  background-image: url(../images/arrow-right-long-solid-full.svg);
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: 230px 50px;
+}
 .top-div {
   position: relative;
+  padding-top: 50px;
 }
 .qs {
   display: flex;
@@ -337,7 +354,7 @@ button {
   padding-bottom: 30px;
 }
 input[type="text"] {
-  padding: 15px;
+  padding-left: 55px;
 }
 .sec2 {
   text-align: center;
@@ -345,7 +362,7 @@ input[type="text"] {
   justify-items: center;
   padding-top: 50px;
 }
-.n1{
+.n1 {
   margin-bottom: 5px;
   background-color: #f4f7fb;
   width: 60px;
@@ -354,10 +371,9 @@ input[type="text"] {
   position: absolute;
   bottom: 60px;
 }
-.mai{
+.mai {
   margin-left: 1px;
   margin-top: 10px;
-  
 }
 .d1 {
   background-color: #f4f7fb;
