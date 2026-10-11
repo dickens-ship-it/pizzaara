@@ -6,6 +6,7 @@
 }
 .r {
   display: flex;
+  align-content: center;
 }
 main {
   padding-top: 50px;
@@ -22,6 +23,10 @@ li {
   padding-bottom: 10px;
   font-size: larger;
 }
+.om {
+  margin-left: 17px;
+  margin-top: 11px;
+}
 .head {
   background-color: #f4f7fb;
   align-items: center;
@@ -29,7 +34,8 @@ li {
 }
 .logo {
   padding-left: 50px;
-  width: 250px;
+  width: 280px;
+  height: 80px;
 }
 .im {
   padding-right: 8px;
@@ -72,10 +78,34 @@ form button {
 }
 .icon {
   background-color: black;
-  width: 50px;
-  height: 50px;
+  width: 35px;
+  height: 35px;
+  /* border-radius: 50%; */
+  margin:;
+  justify-self: center;
+  margin-top: 12px;
+}
+.icon2 {
   border-radius: 50%;
-  margin: 30px;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  justify-self: center;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.icon3 {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  justify-self: center;
+  margin-top: 10px;
+  margin: 20px;
+}
+.im1 {
+  margin-left: 14px;
+  margin-top: 11px;
 }
 .pizza {
   display: flex;
@@ -159,25 +189,81 @@ footer {
 }
 .why {
   padding-left: 40px;
+  margin-top: 70px;
 }
 hr {
   justify-self: center;
 }
 .q {
-  background-color: white;
-  width: 180px;
+  background-color:;
+  width: 300px;
+  height: px;
+  justify-items: center;
+  position: absolute;
+  bottom: -20px;
+  margin-top: 150px;
+}
+.q2 {
+  position: relative;
+  background-color: #f4f7fb;
+  width: 400px;
   height: 280px;
-  align-items: center;
+  justify-items: center;
+  top: 100px;
+  margin-left: 50px;
+  margin-top: 150px;
+}
+.qA {
+  /* padding-bottom: 30px; */
   text-align: center;
+}
+.qa {
+  margin-bottom: 20px;
+}
+.top-div {
+  position: relative;
+}
+.qs {
+  display: flex;
+  justify-items: center;
+  margin-left: 30px;
+  margin-bottom: 150px;
+}
+.bottom-div {
+  position: relative;
+}
+.button2 {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+.home {
+  background-color: #eea539;
+  width: 70px;
+  height: 35px;
+  color: white;
+  margin-right: 90px;
+  margin-top: 10px;
+  position: relative;
+}
+.g {
+  /* justify-self: center; */
+  position: absolute;
+  bottom: -5px;
+  left: 9px;
 }
 .form {
   display: flex;
   padding-left: 50px;
+  padding-top: 70px;
+  padding-bottom: 80px;
 }
 .of {
-  background-color:white;
-
+  background-color: white;
+  margin: 30px;
   margin-bottom: 50px;
+  height: 90px;
 }
 .fresh1 {
   display: flex;
@@ -185,21 +271,28 @@ hr {
 .fresh {
   background-color: black;
   padding: 10px 10px 10px 10px;
-  border-radius: %;
 }
-.place{
+.place {
   padding-left: 15px;
+  padding-top: 15px;
+}
+.why1 {
+  padding-bottom: 40px;
+}
+.section3 {
+  display: flex;
+  margin-top: 80px;
 }
 .x1 {
   background-color: #f4f7fb;
-  height: 520px;
-  margin: 40px;
-  justify-items: ;
-  width: 450px;
-
+  height: 590px;
+  margin-top: 40px;
+  padding-top: 40px;
+  width: 500px;
+  padding-bottom: 50px;
 }
 .x2 {
-  padding-top: 80px;
+  padding-top: 10px;
   padding-left: 1px;
 }
 .footer {
@@ -218,7 +311,7 @@ hr {
 .button {
   background-color: #eea539;
   padding: 10px 50px;
-  color: white;~
+  color: white;
   border-radius: 2px;
 }
 .ol {
